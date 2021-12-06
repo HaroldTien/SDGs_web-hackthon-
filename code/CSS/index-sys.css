@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@keyframes open{
+	0%{opacity: 0}
+	10%{opacity:0.1}
+	25%{opacity:0.25}
+	40%{opacity: 0.4}
+	50%{opacity: 0.5}
+	60%{opacity:0.6}
+	75%{opacity:0.75}
+	100%{opacity: 1}
+}
+body{
+	animation: open 2s ;
+}
+.title{
+	text-align: center;
+}
+table{
+	position: absolute;left: 25%;top: 100px;
+}
+input[type="button"]{
+	color: white;
+	padding: 10px 25px;
+	border-radius: 5px;
+	border: solid 0.5px white;
+	background-color: rgba(0,0,0,0.00);
+	position: absolute;top: 140px; left: 40%;
+}
+input[type="button"]:hover{
+	background-color: rgba(255,255,255,1.00);
+	color: black;
+}
+input[type="reset"]{
+	color: white;
+	padding: 10px 25px;;
+	border-radius: 5px;
+	border: solid 0.5px white;
+	background-color: rgba(0,0,0,0.00);
+	position: absolute;top: 140px; left: 60%;
+}
+input[type="reset"]:hover{
+	background-color: rgba(255,255,255,1.00);
+	color: black;
+}
+input[type="text"]{
+	background-color: rgba(0,0,0,0.00);
+	border: solid 0.5px white;
+	border-radius: 6px;
+	width: 200px;
+	height: 25px;
+	padding: 5px;
+	margin: 10px;
+	color: white;
+}
+input[type="password"]{
+	background-color: rgba(0,0,0,0.00);
+	border: solid 0.5px white;
+	border-radius: 6px;
+	width: 200px;
+	height: 25px;
+	padding: 5px;
+	margin: 10px;
+	color: white;
+}
+.join{
+	position: absolute;top: 300px; left: 35%;
+}
+.cheak{
+	position: absolute;top: 300px; left: 50%;
+}
